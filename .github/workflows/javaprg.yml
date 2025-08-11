@@ -9,10 +9,10 @@ jobs:
        uses: action/checkout@v3
      - name: setup Java 
        uses: actions/setup-java@v3
-        with:
+       with:
           java-version: '21'
           distribution: temurin
-      - name: compile java file
-        run: javac prac16.java
-      - name: run java file
-        run: java prac16
+     - name: compile java file
+       run: javac prac16.java
+     - name: run java file
+       run: java prac16
