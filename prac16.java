@@ -117,7 +117,7 @@ class prac16{
 	}
 	static void fileop(){
 		try{
-			File file = new File("C:\\Users\\KN00832612\\Documents\\Test files\\test.txt"); 
+			File file = new File("test.txt"); 
 			if(file.createNewFile())
 				System.out.println("Created New File"); 
 			else
@@ -136,10 +136,10 @@ class prac16{
 		}
 	}
 	public static void main(String[] args){
-		//strfun();
-		//numberfun(); 
-		//arrayfun(); 
-		//charfun(); 
+		strfun();
+		numberfun(); 
+		arrayfun(); 
+		charfun(); 
 		fileop(); 
 	}
 }
